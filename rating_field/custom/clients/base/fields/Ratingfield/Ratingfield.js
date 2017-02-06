@@ -1,4 +1,9 @@
 ({
+    plugins: ['CssLoader'],
+
+    css: [
+        'custom/themes/star_rating.css',
+    ],
     /**
      * Called when initializing the field
      * @param options
@@ -20,8 +25,8 @@
      * @param value
      */
     format: function(value) {
-		value = isNaN(value) ? 0 : value;
-        this.percentage = value > 5 ? value : (parseFloat(value)*100)/5;
+		value = isNaN(parseFloat(value)) ? 0 : parseFloat(value);
+        this.percentage = value > 5 ? value : (value*100)/5;
         return this._super('format', [value]);
     },
 
