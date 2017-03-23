@@ -51,60 +51,65 @@ $installdefs = array (
 			),
 		  2 =>
 			array (
+			  'from' => '<basepath>/custom/Extension/application/Ext/clients/base/filters/operators/StarRating.php',
+			  'to' => 'custom/Extension/application/Ext/clients/base/filters/operators/StarRating.php',
+			),
+		  3 =>
+			array (
 			  'from' => '<basepath>/custom/Extension/application/Ext/JSGroupings/cssLoaderPlugin.php',
 			  'to' => 'custom/Extension/application/Ext/JSGroupings/cssLoaderPlugin.php',
 			),
-		  3 =>
+		  4 =>
 			array (
 			  'from' => '<basepath>/custom/Extension/application/Ext/Language/en_us.Ratingfield.php',
 			  'to' => 'custom/Extension/application/Ext/Language/en_us.Ratingfield.php',
 			),
-		  4 =>
+		  5 =>
 			array (
 			  'from' => '<basepath>/custom/Extension/modules/ModuleBuilder/Ext/Language/en_us.Ratingfield.php',
 			  'to' => 'custom/Extension/modules/ModuleBuilder/Ext/Language/en_us.Ratingfield.php',
 			),
-		  5 =>
+		  6 =>
 			array (
 			  'from' => '<basepath>/custom/Extension/modules/DynamicFields/Ext/Language/en_us.Ratingfield.php',
 			  'to' => 'custom/Extension/modules/DynamicFields/Ext/Language/en_us.Ratingfield.php',
 			),
-		  6 =>
+		  7 =>
 			array (
 			  'from' => '<basepath>/custom/modules/DynamicFields/templates/Fields/Forms/Ratingfield.php',
 			  'to' => 'custom/modules/DynamicFields/templates/Fields/Forms/Ratingfield.php',
 			),
-		  7 =>
+		  8 =>
 			array (
 			  'from' => '<basepath>/custom/modules/DynamicFields/templates/Fields/Forms/Rating.tpl',
 			  'to' => 'custom/modules/DynamicFields/templates/Fields/Forms/Rating.tpl',
 			),
-		  8 =>
+		  9 =>
 			array (
 			  'from' => '<basepath>/custom/modules/DynamicFields/templates/Fields/TemplateRatingfield.php',
 			  'to' => 'custom/modules/DynamicFields/templates/Fields/TemplateRatingfield.php',
 			),
-		  9 =>
+		  10 =>
 			array (
 			  'from' => '<basepath>/custom/clients/base/fields/Ratingfield/edit.hbs',
 			  'to' => 'custom/clients/base/fields/Ratingfield/edit.hbs',
 			),
-		  10 =>
+		  11 =>
 			array (
 			  'from' => '<basepath>/custom/clients/base/fields/Ratingfield/Ratingfield.js',
 			  'to' => 'custom/clients/base/fields/Ratingfield/Ratingfield.js',
 			),
-		  11 =>
+		  12 =>
 			array (
 			  'from' => '<basepath>/custom/clients/base/fields/Ratingfield/detail.hbs',
 			  'to' => 'custom/clients/base/fields/Ratingfield/detail.hbs',
 			),
-		  12 =>
+		  13 =>
 			array (
 			  'from' => '<basepath>/custom/clients/base/fields/Ratingfield/list.hbs',
 			  'to' => 'custom/clients/base/fields/Ratingfield/list.hbs',
 			),
-		  13 =>
+		  14 =>
 			array (
 			  'from' => '<basepath>/custom/themes/star_rating.css',
 			  'to' => 'custom/themes/star_rating.css',
